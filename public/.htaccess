@@ -1,0 +1,8 @@
+Options -Indexes
+
+<FilesMatch "^(\.env|.*\.json)$">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
+RewriteRule ^api/ - [L]

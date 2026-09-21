@@ -1,0 +1,21 @@
+# Dependencies
+vendor/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Credentials & Runtime state
+credentials/
+secrets/
+service-account*.json
+google-credentials*.json
+*.lockfile
+runtime/
+storage/locks/
+
+# System and logs
+.DS_Store
+Thumbs.db
+*.log

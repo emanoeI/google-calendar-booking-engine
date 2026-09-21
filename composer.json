@@ -1,0 +1,24 @@
+{
+  "name": "emanoel/google-calendar-booking-engine",
+  "description": "Motor de agendamentos em PHP moderno usando Google Calendar como única fonte da verdade (sem banco de dados).",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emanoel",
+      "homepage": "https://github.com/emanoeI"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "google/apiclient": "^2.18"
+  },
+  "autoload": {
+    "psr-4": {
+      "BookingEngine\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "@php tests/backend.php"
+  }
+}
